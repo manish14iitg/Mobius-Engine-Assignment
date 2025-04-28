@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import "tailwindcss";
+
+
+:root {
+  margin: 0;
+  padding: 0;
+  max-width: 1500px;
+}
+
+@theme {
+  --font-sora: 'Sora', sans-serif;
+  --font-dm-sans: 'DM Sans', sans-serif;
+}
+
+:root {
+  --font-sora: 'Sora', sans-serif;
+  --font-dm-sans: 'DM Sans', sans-serif;
+  --line-height: 1.4; 
+}
+
+body {
+  font-family: var(--font-dm-sans);
+  font-weight: 400;
+  line-height: var(--line-height);
+  font-size: 16px;
+}
+
+h1 {
+  font-family: var(--font-sora);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-dm-sans);
+  line-height: 1.04;
+}
+
+
+
+h2 {
+  font-weight: 500;
+}
+
+p {
+  font-family: var(--font-dm-sans);
+  font-weight: 400;
+  line-height: 1.04;
+}
